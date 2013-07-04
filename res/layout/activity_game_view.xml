@@ -1,0 +1,91 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#006600"
+        android:gravity="center_vertical|left"
+        android:paddingLeft="10dip"
+        android:text="@string/strGameViewGameInfo"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"/>
+    
+    <ListView
+        android:id="@+id/m_lv_Game"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#006600"
+        android:gravity="center_vertical|left"
+        android:paddingLeft="10dip"
+        android:text="@string/strGameViewFinalScore"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/tvAwayLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/strGameViewAway" />
+
+        <EditText
+            android:id="@+id/txtAway"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="number" >
+
+            <requestFocus />
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/tvHomeLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/strGameViewHome" />
+
+        <EditText
+            android:id="@+id/txtHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="number" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right|center_vertical" >
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:text="@string/strSaveGame"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

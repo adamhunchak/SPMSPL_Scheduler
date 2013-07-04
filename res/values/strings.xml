@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SPMSPL Schedule</string>
+    <string name="action_download">Load Schedule</string>
+    <string name="action_reset">Reset</string>
+    <string name="action_quit">Quit</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_welcome">Welcome</string>
+    <string name="title_full_schedule">Full Schedule</string>
+    <string name="title_activity_load_schedule">LoadSchedule</string>
+    <string name="title_activity_schedule_view">ScheduleView</string>
+    <string name="title_preferences">Preferences</string>
+
+    <!-- Load Schedule Strings Start -->
+    <string name="strSelectDiv">Select Division:</string>
+    <string name="strSelectTeam">Select Team:</string>
+    <string name="strSaveLoad">Save &amp; Load Schedule</string>
+    <!-- Load Schedule Strings End -->
+    
+    <!--  Schedule View Start -->
+    <string name="strScheduleTitle">Schedule</string>
+    <!--  Schedule View End -->
+    
+    <!--  Today View Start -->
+    <string name="strTodayTitle">Next Game(s)</string>
+    <string name="strTodayRecord">Current Record</string>
+    <!--  Today View End -->
+
+    
+    <!-- Game View Start -->
+    <string name="title_activity_game_view">Game View</string>
+    <string name="strSaveGame">Save</string>
+    <string name="strGameViewGameInfo">Game View</string>
+    <string name="strGameViewFinalScore">Final Score</string>
+    <string name="strGameViewAway">Away Team:</string>
+    <string name="strGameViewHome">Home Team:</string>
+    <string name="strGameViewTeamName">Team:</string>
+    <string name="strGameViewRecord">0&#8211;0&#8211;0</string>
+    <!-- Game View End -->
+
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="SPMSPL Settings">
+	    <EditTextPreference
+			android:summary="League Email" 
+			android:defaultValue="scores@spmspl.com"
+			android:title="Score Submission"
+			android:key="editTextEmailPref" />
+	    </PreferenceCategory>
+</PreferenceScreen>
